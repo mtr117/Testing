@@ -2,17 +2,6 @@ import alpaca_trade_api as tradeapi
 import numpy as np
 import time
 
-
-'''
-    This is a trading script that you can run in the cloud and customize with your own trading algorithms
-
-    The example uses the Alpaca Trading API, which is a free algorithmic trading platform that allows for paper trading
-    You can setup a free account on Alpaca here: https://alpaca.markets/
-
-    Alternatively, edit the getMarketData, Buy, and Sell functions to connect your own APIS
-'''
-
-
 SEC_KEY = 'UZLcoyFdhMwP8LcjiYJiGovdk9wYgYRY0ogkm77Q'
 PUB_KEY = 'PK3PIMGF41B09YL1K4EN'
 BASE_URL = 'https://paper-api.alpaca.markets'
